@@ -1,0 +1,73 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Build directory
+/dist
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker related files
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.*.yml
+docker-compose.yaml
+*.env
+.dockerignore
+
+# Ignore Docker containers output files
+*.pid
+*.seed
+
+# Local development
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+*.swp
+
+# Optional npm cache directory
+.npm
+
+# Jest coverage folder
+/coverage
+
+# Parcel-bundler cache (if using Parcel)
+/.cache
+
+# TypeScript compiled output (if using TypeScript)
+*.tsbuildinfo
+/tsconfig.tsbuildinfo
+/dist
+/out
+/**/*.js.map
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional prettier cache
+.prettiercache
+
+# Optional lock files (if you want to ignore them)
+# This can vary based on preference or policy
+# /package-lock.json
+# /yarn.lock
+# /pnpm-lock.yaml
